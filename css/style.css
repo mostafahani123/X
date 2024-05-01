@@ -1,0 +1,264 @@
+*{
+    scrollbar-width:none;
+}
+
+
+/* navigation */
+ #navbar{
+    position: fixed relative;
+    padding-left: 10vh;
+ }
+.contact{
+    background-color: rgba(255, 182, 86, 0.903);
+    border-radius: 20px;
+    padding: 5px 22px 5px 22px;
+    font-size: bold;
+    font-weight: 500;
+}
+/* end Handle Navigation */
+
+/* handle Icons */
+ .container .icon-1,.icon-2,.icon-3,.icon-4{
+    display: inline-block;
+    padding-left: 26vh;
+ }
+ .container .secIcon1 {
+  position: relative;
+  cursor: pointer;
+  right: 12vh;
+  bottom: 12vh;
+
+ }
+ .container .secIcon1 h5{
+    position: relative;
+    left:7vh;
+    top: 2vh;
+ }
+ .container .secIcon1 p {
+    position: relative;
+    right: 1vh;
+    font-size: 12;
+ }
+ .container .secIcon1 .p-1,.p-2 {
+    position: relative;
+    left: 2vh;
+    font-size: 12;
+ }
+ .container img{
+    width: 13vh;
+    position: relative;
+    left: 6vh;
+ }
+/* End Handle Icons */
+
+/* handle Section3 */
+
+.container-Section3 .left-img img{
+   width: 55%;
+   height: 80vh;
+   cursor: pointer;
+
+}
+.container-Section3 .left-img{
+    position: relative;
+    right: 19vh;
+    cursor: pointer;
+    bottom: 10vh;
+    
+}
+
+.container-Section3 .right-info img{
+    position: relative;
+    width: 60vh;
+    float: right;
+    cursor: pointer;
+    right: 3vh;
+    bottom: 87vh;
+}
+.container-Section3 .right-info .top,.bottom{
+    position: relative;
+    display: block;
+    cursor: pointer;
+    left: 125vh;
+    bottom: 65vh;
+}
+.container-Section3 .btn-secion3{
+    position: relative;
+    float: right;
+    cursor: pointer;
+    right: 7vh;
+    bottom: 55vh;
+  
+}
+.container-Section3 .btn-secion3 .btn-right{
+    background-color: rgba(0, 127, 254, 0.903);
+    border-radius: 10px;
+    padding: 4px 50px 4px 50px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: bold;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.container-Section3 .btn-secion3 .btn-left{
+    background-color: rgba(255, 182, 86, 0.903);
+    border-radius: 10px;
+    padding: 4px 50px 4px 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: bold;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.container-Section3 #Icon-section3{
+    width: 40vh;
+    position: relative;
+    float: right;
+    left: 62vh;
+    cursor: pointer;
+    bottom: 60vh;
+}
+/*End handle Section3 */
+
+/* handle section 4 */
+.container-4 .img-title img{
+    width: 50vh;
+   position: relative;
+   left: 75vh;
+   bottom: 30vh;
+}
+.container-4  .group-section4 img{
+    width: 40vh;
+    position: relative;
+    left: 6vh;
+    bottom: 30vh;
+    cursor: pointer;
+}
+.container-4  .group-section4{
+ display: flex;
+
+}
+/* end section 4 */
+/* handle section 5 */
+.container-5 .img-title img{
+    width: 50vh;
+   position: relative;
+   left: 75vh;
+   bottom: 30vh;
+}
+.container-5 .group-section5 {
+    display: flex;
+ position: relative;
+ left: 32vh;
+ bottom: 24vh;
+    
+}
+.container-5 .group-section5 .sec1,.sec2,.sec3{
+    width: 300px;
+    height: 300px;
+    border-radius: 6vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2.5px 2px 2px 0px rgb(171, 171, 171);
+}
+.container-5 .group-section5 .sec1{
+    position: relative;
+    right: 10vh;
+}
+.container-5 .group-section5 .sec3{
+    position: relative;
+    left: 10vh;
+}
+.container-5 .group-section5 .p-section4-h3,.p-section4{
+position: relative;
+top: 30vh;
+font-size: 18px;
+text-align: center;
+}
+.container-5 .group-section5 .p-section4-h3 {
+    color: rgba(255, 182, 86, 0.903);
+
+}
+/* end section 5 */
+
+/* handle Media Query */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /* handle icons */
+    .container{
+        position: relative;
+        left: 10vh;
+    }
+    /* end handle icons */
+
+    /* section 3 */
+    .container-Section3 .right-info .top,.bottom{
+        position: relative;
+        cursor: pointer;
+        font-size: 11px;
+        left: 30vh;
+        bottom: 65vh;
+    }
+    /* end section 3 */
+    
+/* handle section 4 */
+.container-4 .img-title img{
+    width: 30vh;
+   position: relative;
+   left: 30vh;
+   bottom: 30vh;
+}
+.container-4  .group-section4 img{
+    width: 20vh;
+    position: relative;
+    left: 6vh;
+    bottom: 30vh;
+    cursor: pointer;
+}
+.container-4  .group-section4{
+ display: flex;
+
+}
+/* end section 4 */
+/* handle section 5 */
+.container-5 .img-title img{
+    width: 30vh;
+   position: relative;
+   left: 30vh;
+   bottom: 30vh;
+}
+.container-5 .group-section5 {
+    display: flex;
+ position: relative;
+ left: 25vh;
+ bottom: 24vh;
+    
+}
+.container-5 .group-section5 .sec1,.sec2,.sec3{
+    width: 290px;
+    height: 350px;
+    border-radius: 3vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2.5px 2px 2px 0px rgb(171, 171, 171);
+}
+.container-5 .group-section5 .sec1{
+    position: relative;
+    right: 10vh;
+}
+.container-5 .group-section5 .sec3{
+    position: relative;
+    left: 10vh;
+}
+.container-5 .group-section5 .p-section4-h3,.p-section4{
+position: relative;
+top: 0vh;
+font-size: 18px;
+text-align: center;
+}
+.container-5 .group-section5 .p-section4-h3 {
+    color: rgba(255, 182, 86, 0.903);
+
+}
+/* end section 5 */
+  }
